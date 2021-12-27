@@ -1,0 +1,43 @@
+html, body, #root, .react-root {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+h1 {
+color: black;
+}
+
+
+ button {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid rgb(8, 8, 8);
+  color: white;
+  font-size: 30px; cursor: pointer;
+} 
+
+
+.red {
+  background-color: red;
+  color: white;
+}
+.blue {
+  background-color: blue;
+  color: white;
+}
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+.app {
+  background-image: src ="myreactdemo\public\woman.PNG";
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  background-size: cover;
+}
